@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.258)
+}
+
+.navigation {
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.jclogo {
+    height: 90%;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.crown {
+    height: 20px;
+}
+
+.premium {
+    width: fit-content;
+    border: 2px solid gold;
+    padding: 3px 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: gold;
+    font-weight: bold;
+    display: flex;
+    column-gap: 5px;
+}
+
+.navLinks {
+    width: fit-content;
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navlink {
+    padding: 19px 0px;
+    border-bottom: 2px solid #d9008d;
+}
+
+.search {
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.searchbox {
+    width: fit-content;
+    height: 38px;
+    background-color: #1e1f20;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.searchicon {
+    height: 30px;
+    width: fit-content;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchinput {
+    height: 25px;
+    width: 250px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+    background-color: #1e1f20;
+}
+
+.mic {
+    height: 30px;
+}
+
+.jio {
+    height: 50%;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.searchResults {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(229, 232, 232, 0.8);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    padding: 2%;
+}

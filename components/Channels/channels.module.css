@@ -1,0 +1,19 @@
+.channels {
+    height: 130px;
+    width: 100%;
+    padding: 10px 2%;
+    background-color: #060707;
+    display: flex;
+    border-top: 1px solid rgba(128, 128, 128, 0.258);
+    column-gap: 10px;
+}
+
+.channels>img {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.channels>img:hover {
+    height: 120px;
+
+}
